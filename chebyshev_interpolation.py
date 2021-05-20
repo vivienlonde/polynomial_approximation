@@ -9,7 +9,7 @@ import numpy as np
 #### Compute Chebyshev interpolation points of the first kind.
 
 degree = 20
-X = reversed(chebpts1(degree+1)) # on inverse l'ordre pour avoir theta croissant et non x croissant.
+X = reversed(chebpts1(degree+1)) # Reverse the order to have increasing theta instead of increasing x.
 # print('X:', X)
 
 
