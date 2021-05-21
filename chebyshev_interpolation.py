@@ -64,8 +64,3 @@ Y_P_plot = [polyval(inverse_affine_transformation(x), P) for x in X_plot]
 # plt.legend()
 # plt.show()
 
-
-
-######## Alternative1: use numpy.polynomial.chebyshev.Chebyshev.fit to fit data.
-######## Alternative2: use numpy.polynomial.chebyshev.Chebyshev.interpolate to fit function.
-######## Alternative3: use numpy.polynomial.polynomial.polyfit to fit data.

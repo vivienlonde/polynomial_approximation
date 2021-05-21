@@ -1,0 +1,3 @@
+Alternative1: use numpy.polynomial.chebyshev.Chebyshev.fit to fit data.
+Alternative2: use numpy.polynomial.chebyshev.Chebyshev.interpolate to fit function.
+Alternative3: use sklearn.preprocessing.PolynomialFeatures for a polynomial regression.
